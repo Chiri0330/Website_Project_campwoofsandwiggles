@@ -1,0 +1,462 @@
+/* Custom Styles for Camp Woofs and Wiggles */
+
+ /* --_________________________Navigation Header/Title Styling_________________________--*/
+
+ /* Logo Size */
+.logo {
+  width: 150px; 
+}
+
+/* Navigation Links */
+.nav-link:link {
+    font-family: "Grandstander";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px; 
+    color: #ecac58; 
+}
+
+.nav-link:visited {
+    color: #ecac58;
+}
+
+.nav-link:hover {
+    color: #9ca9b0; 
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px; 
+}
+
+.navbar-toggler-icon {
+    color: #ecac58;
+}
+
+.title-nav {
+  background-color: #ecac58;
+  font-family: 'Grandstander';
+  font-size: 35px;
+  color:#000000;
+padding-top: 5px;
+}
+
+/* Custom Background Color */
+.body-bg {
+  background-color: #000; 
+}
+
+.section-divider {
+  display: block;
+  width: 100%; 
+  height:3.5px; 
+  background-color: #ecac58;
+ margin-top: 15px;
+ margin-bottom: 10px;
+}
+
+
+   /* --_________________________Home Page Carousel/Styling_________________________--*/
+
+     /* Carousel Img*/
+     .carousel-image {
+      width: 500px;
+      height: 600px;
+  }
+
+   /* Carousel Text*/
+  .carousel-caption-outside {
+    font-family: 'Roboto';
+      text-align: center;
+      margin-top: 1rem; 
+      font-size: 18px;
+      color: #fbd3df
+  }
+
+/* Adjust the row spacing to create better margins */
+.row-home {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+/* Title styling (Contact Us, Our Services) */
+.home-title {
+  font-family: 'Gandstander';
+  font-size: 50px;
+  color: #9ca9b0;
+  font-weight: 700px;
+}
+
+.home-title1 {
+  font-family: 'Gandstander';
+  font-size: 50px;
+  color: #fbd3df;
+  font-weight: 300px;
+}
+
+/* Message styling (bottom text under image) */
+.home-text {
+  background-color: #9ca9b028;
+  font-family: 'Grandstander';
+  font-size: 25px;
+  color: #fbd3df;
+  font-weight: 300;
+  padding: 5px; 
+}
+
+   /*Home Hover*/
+.container1:hover {
+  background-color: #9ca9b084 !important; 
+  transition: background-color 0.3s ease-in-out; 
+  margin-top: -1.50rem;
+}
+  
+
+/* --_________________________Our Services Page Styling_________________________--*/
+
+   /*Service Text*/
+.service-day {
+  font-family: 'Roboto';
+  font-size: 60px;
+  margin-bottom: 5px;
+  color: #9ca9b0; 
+}
+
+.service-include{
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ecac58;
+  font-weight: 500;
+}
+
+.service-text {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #fbd3df; 
+  text-align: left;
+}
+
+.boarding-text {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #fbd3df; 
+  text-align: left;
+}
+
+.service-price {
+  font-family: 'Roboto';
+  font-size: 50px;
+  margin-bottom: 5px;
+  color: #9ca9b0; 
+}
+
+.service-prices {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #fbd3df; 
+  text-align: center;
+}
+
+.service-note{
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ecac58;
+  font-weight: 500;
+}
+
+.service-bd {
+  font-family: 'Gabriola';
+  color: #fbd3df; 
+  text-decoration: none;
+  font-size: 75px;
+  font-weight: 300px;
+}
+ 
+.img-bd {
+width: 700px ;
+height: 700px; ;
+}
+
+
+/* --_________________________About us Page Styling_________________________--*/
+
+/* Custom class for resizing the image */
+.about-img {
+  max-width: 100%;
+  height: auto;
+  width: 100%; 
+  border: 5px solid #8b5e3c; 
+}
+
+/* Custom styles for the About Us section */
+.about-section {
+  padding: 8px;
+  color: white; 
+}
+
+.about-title {
+  font-family: 'Grandstander';
+  font-size: 65px;
+  margin-bottom: 5px;
+  color: #9ca9b0; 
+}
+
+.about-divider {
+  display: block;
+  width: 100%; 
+  height: 3.75px; 
+  background-color: #ecac58;
+  margin-bottom: 1px;
+}
+
+.about-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #fbd3df; 
+  text-align: center;
+}
+
+.mission-title {
+  font-family: 'Grandstander';
+  font-size: 50px;
+  margin-bottom: 5px;
+  color: #9ca9b0; 
+
+}
+
+.mission-text {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: #fbd3df; 
+  text-align:center;
+}
+
+.spacetab {
+  display: inline-block;
+  width: 20px;
+}
+
+.learn-more-section {
+  padding: 5px;
+  display: inline-block;
+}
+
+.learn-more-link {
+  font-family: 'Gabriola';
+  color: #9ca9b0; 
+  text-decoration: none;
+  font-size: 65px;
+  font-weight: 250px;
+}
+
+.learn-more-link:hover {
+  color: #fbd3df; 
+}
+
+
+ /* --_________________________Contact Email Form Page Styling _________________________--*/
+
+ /* Img Container Styling */
+ .photo-text {
+  font-family: 'Grandstander';
+  font-size: 18px;
+  color: #9ca9b0;
+  font-weight: 700;
+  margin-top: 1.75rem;
+}
+
+ .contact-title1 {
+  font-family:'Roborto' ;
+  font-size: 50px ;
+  font-weight: 500 ;
+  color: #fbd3df;
+  margin-top: 1rem;
+ }
+
+/* Adjust margin on the left and right to create space from the page borders */
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Adjust the row spacing and reduce the gap between columns */
+.row1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; 
+  flex-wrap: nowrap; 
+}
+
+/* Form Label Styling */
+.form-label {
+  display: block; 
+  text-align: left; 
+  font-family: 'Roboto'; 
+  color: #fbd3df; 
+  font-size: 18px; 
+  font-weight: 600;
+}
+
+/* Input and Textarea Styling */
+.form-control {
+  font-family: 'Roboto';
+  color: #000000; 
+  background-color: #c0c1c2; 
+  border: 3px solid #ecac58; 
+  padding: 10px; 
+  border-radius: 5px; 
+  font-size: 15px; 
+}
+
+/* Adjusting font size */
+.form-control::placeholder {
+  font-size: 12px; 
+  color: #000000;
+  font-family: 'Grandstander';
+}
+
+/* Submit Button Styling */
+.btn-contact {
+  background-color: #ecac58; 
+  border-color: #ecac58; 
+  color: #000000; 
+  font-size: 16px; 
+  padding: 10px 20px; 
+  border-radius: 8px;
+  border: 2.75px solid #000000; 
+}
+
+/* Button Hover State */
+.btn-contact:hover {
+  background-color: #9ca9b0; 
+  border-color: #ecac58; 
+  color: #000000;
+}
+
+ /* Contact Styling */
+ .contact-title{
+  font-family: 'Grandstander';
+  font-size: 45px;
+  font-weight:  700;
+  color: #9ca9b0
+  }
+  
+  .contact-infotitle {
+    font-family: 'Roboto';
+  font-size: 90px;
+  font-weight:  750;
+  color: #fbd3df;
+  margin-top: -6rem;
+  }
+  
+  .contact-info{
+    font-family: 'Grandstander';
+    font-size: 45px;
+    font-weight: 400;
+    color: #9ca9b0
+  }
+  
+   .contact-text {
+    font-family:'Roborto' ;
+    font-size:28px ;
+    font-weight: 500 ;
+    color: #fbd3df;
+    margin-top: -1rem;
+   }
+  
+   .contact-web {
+    font-family: 'Grandstander';
+  font-size: 65px;
+  font-weight:  800;
+  color: #9ca9b0
+  }
+  
+
+ /* --_________________________Footer Styling_________________________--*/
+
+  /* Address and Business Hours Styling */
+  .footer-title {
+    font-family: 'Grandstander';
+    font-size: 20px;
+    color: #9ca9b0;
+    font-weight: bold;
+    margin-top:10px;
+  }
+
+.footer-text {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #fbd3df;
+    font-weight: 500;
+  }
+
+  /* Social Media Buttons */
+  .footer-social {
+    font-family: 'Grandstander';
+    font-size: 22px;
+    color: #ecac58;
+    margin-bottom: 1.5px;
+    font-weight: bold;
+  }
+
+  .facebook-btn, .instagram-btn, .tiktok-btn {
+    border-radius: 10%; 
+    padding: 10px; 
+    font-size: 15px; 
+  }  
+
+.facebook-btn {
+    background-color: #3b5998;
+    color: white;
+}
+
+.instagram-btn {
+    background-color: #ac2bac;
+    color: white;
+}
+
+.tiktok-btn {
+    background-color: #333333;
+    color: white;
+}
+
+.facebook-btn:hover, .instagram-btn:hover, .tiktok-btn:hover {
+    background-color: #8b5e3c; 
+  }
+
+
+   /* --_________________________Copyright Styling_________________________--*/
+
+/* Copyright Section */
+.copyright {
+    background-color: #ecac58; 
+    border: #000000; 
+    font-family: 'Grandstander'; 
+    text-align: center; 
+    margin-bottom: 3px;
+}
+        
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
